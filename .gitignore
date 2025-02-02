@@ -1,0 +1,35 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# dotenv environment variables
+.env
+
+# logs
+logs/
+*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDEs and Editors
+.vscode/
+.idea/
+
+# npm package lock files (optional, depends on your workflow)
+package-lock.json
+yarn.lock
+
+# Build output
+dist/
+build/
+
+# Optional: If you're using a testing framework
+coverage/

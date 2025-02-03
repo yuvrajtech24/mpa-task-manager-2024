@@ -18,7 +18,7 @@ class Users{
             let result = await db.query(query);
             return result; 
         } catch(err) {
-            return err;
+            throw err;
         }
     }
 
@@ -34,7 +34,7 @@ class Users{
             let result = await db.query(query);
             return result;
         } catch(err) {
-            return err;
+            throw err;
         }
     }
 
@@ -54,7 +54,7 @@ class Users{
             let result = await db.query(query);
             return result;
         } catch(err) {
-            return err;
+            throw err;
         }
     }
 
@@ -80,7 +80,7 @@ class Users{
             let result = await db.query(query);
             return result;
         }catch(err) {
-            return err;
+            throw err;
         }
     }
 
@@ -98,7 +98,7 @@ class Users{
             let result = await db.query(query);
             return result;
         } catch(err) {
-            return err;
+            throw err;
         }
     }
 }
